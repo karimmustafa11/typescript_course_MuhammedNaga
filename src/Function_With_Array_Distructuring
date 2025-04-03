@@ -1,0 +1,6 @@
+
+
+function printLanguages([a, b, c]: string[]) {
+    return `First language $${a}, Second language $${b} Third language $${c}`;
+}
+console.log(printLanguages(["Javascript", "Java", "Python"]));
